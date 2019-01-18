@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(bg.jpg);
+	font-family: Verdana;
+}
+
+#gora {
+	margin: auto;
+	width: 50%;
+}
+
+#pudlo {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#menu {
+	width: 60%;
+	margin: auto;
+	background-color: #aacc66;
+}
+
+table {
+	margin: 0 auto;
+}
+
+#srodek {
+	padding: 1px;
+	margin: auto;
+	height: 100%;
+	width: 60%;
+    min-height: 200px;
+	background-color: rgba(122, 179, 0, 0.8);
+}
+
+#stopka {
+	background-color: rgba(213, 255, 128, 0.7);
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+.zdj {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.czarna_zdj {
+	float: right;
+    clear: both;
+    margin: 10px;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #aacc66;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 0 auto;
+	width: 33.3%
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+p {
+	text-indent: 20px;
+    white-space: pre-wrap;
+}
+
+.active {
+    background-color: rgb(37, 31, 31);
+	color: black;
+}
+
+@media only screen and (max-width:620px) {
+	/* ekran telefonu */
+	#gora {
+		width: 100%;
+	}
+	#srodek {
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+		margin: auto;
+	}
+	.topnav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.topnav a {width: 100%;
+	}
+}
+
